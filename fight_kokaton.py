@@ -166,6 +166,7 @@ def main():
         bomb = Bomb((255, 0, 0), 10)
         bombs.appned(bomb)
     beams = []  # 追加機能2：複数ビームリスト
+    explosions = [] # 追加機能3：爆発リスト
 
     beam = None  # ゲーム初期化時にはビームは存在しない
     clock = pg.time.Clock()
